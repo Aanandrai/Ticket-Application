@@ -6,6 +6,7 @@ package org.ticketBooking;
 import org.ticketBooking.entities.Train;
 import org.ticketBooking.entities.User;
 import org.ticketBooking.services.UserBookingService;
+import org.ticketBooking.util.UserServiceUtil;
 
 import java.io.IOException;
 import java.util.ArrayList;
