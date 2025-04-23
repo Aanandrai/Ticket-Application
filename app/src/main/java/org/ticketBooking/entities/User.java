@@ -36,7 +36,7 @@ public class User {
         return password;
     }
 
-    public String getHashPassword(){
+    public String getHashedPassword(){
         return hashPassword;
     }
 
