@@ -53,20 +53,24 @@ public class Train {
         return trainId;
     }
 
-    public String setTrainNo(){
+    public String getTrainNo(){
         return trainNo;
     }
 
-    public  List<List<Integer>> setSeats(){
+    public  List<List<Integer>> getSeats(){
         return seats;
     }
 
 
-    public Map<String, String> setStationTimes(){
+    public Map<String, String> getStationTimes(){
         return stationTimes;
     }
 
-    public List<String> setStations(){
+    public List<String> getStations(){
         return stations;
+    }
+
+    public String getTrainInfo(){
+        return String.format("Train IDL %s  Train No : %s ", trainId , trainNo);
     }
 }
